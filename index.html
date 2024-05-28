@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="auth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7c9a2a7208.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+</head>
+<body>
+<div class="toggle-buttons">
+    <div id="btn1" onclick="openREG()" class="reg_btn"><button><li><a href="">Register</a></li></button></div>
+    <div id="btn2" onclick="openLOGIN()" class="login_btn"><button><li><a href="">Log in</a></li></button></div>  
+</div>
+    <div id="register" class="container">
+        <div class="title">Registration</div>
+        <form action="#">
+        <div class="user-details">
+            <div class="input-box-1">
+                <span class="details">Name:</span>
+                <input type="text" placeholder="Enter your name" required>
+                <span class="details">Username:</span>
+                <input type="text" placeholder="Enter username" required>
+            </div>
+            <div class="input-box-2">
+                <span class="details">Email:</span>
+                <input type="text" placeholder="Enter your email" required>
+                <span class="details">Password:</span>
+                <input type="password" id="password" placeholder="Enter password" required>
+            <a class="" id="toggle-password">
+                <span class="password-icon hide" id="open-eye"><i class="fa fa-eye"></i></span>
+                <span class="password-icon " id="closed-eye"><i class="fa fa-eye-slash"></i></span>
+            </a>
+            </div>
+            <div class="input-box-3">
+                <span class="details">Steam(optional):</span>
+                <input type="text" placeholder="Enter your steam link" required>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+        </form>
+    </div>
+     <div id="log_in" class="container">
+        <div class="title">Log in</div>
+        <form action="#">
+        <div class="user-details">
+            <div class="input-box-1">
+                <span class="details">Username:</span>
+                <input class="password" type="text" placeholder="Enter username" required>
+            </div>
+            <div class="input-box-2">
+                <span class="details">Password:</span>
+                <input type="password" id="password-2" placeholder="Enter password" required>
+            <a class="" id="toggle-password-2">
+                <span class="password-icon-2 hide-2" id="open-eye-2"><i class="fa fa-eye"></i></span>
+                <span class="password-icon-2 " id="closed-eye-2"><i class="fa fa-eye-slash"></i></span>
+            </a>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+        </form>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

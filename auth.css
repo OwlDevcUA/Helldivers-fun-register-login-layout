@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/Back.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.9);
+    padding: 25px 30px;
+    font-family: "Khand", sans-serif;
+    height: 600px;
+    position: absolute;
+    transform: translateX(200%);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.input-box-1 {
+    text-align: center;
+    padding: 40px ;
+    color: #fff;
+
+}
+
+.input-box-1 span {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.input-box-1 input{
+    padding: 10px;
+}
+
+.input-box-2 {
+    text-align: center;
+    padding: 40px ;
+    color: #fff;
+}
+
+.input-box-2 span {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.input-box-2 input{
+    padding: 10px;
+}
+
+.input-box-3 {
+    text-align: center;
+    padding: 25px ;
+    color: #fff;
+}
+
+.input-box-3 span {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.input-box-3 input{
+    padding: 10px;
+}
+
+.button {
+    text-align: center;
+    padding: 55px;
+}
+
+.button input{
+    height: 55px;
+    width: 60%;
+    font-family: "Khand", sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.toggle-buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 510px;
+    margin-top: 110px;
+    text-align: center;
+    display: flex;
+    
+}
+
+.toggle-buttons button {
+    padding: 16px 70px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #1a1a1ab3;
+    border: 0;
+}
+
+.toggle-buttons button:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+
+
+.toggle-buttons button a{
+    text-decoration: none;
+    font-family: "Khand", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+#register {
+    transform: translateX(0px);
+}
+
+#btn1 {
+    background-color: #1a1a1ae6;
+}
+
+.password-icon {
+    position: absolute;
+    top: 230px;
+    right: 90px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.password-icon-2 {
+    position: absolute;
+    top: 230px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.hide-2 {
+    visibility: hidden;
+}
